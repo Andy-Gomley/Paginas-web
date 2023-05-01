@@ -1,0 +1,86 @@
+
+body{
+  background-color: rgb(235, 216, 156) ; 
+  color:#070707 ;
+  font-family: 'Arial', cursive;
+}
+
+p {
+   color:black 
+}
+
+
+.titulo-web{
+    color:rgb(7, 7, 7);
+    font-size:50px ; 
+}
+
+header{
+    /*Navegación*/
+    background-color: rgb(235, 216, 156);
+    width: 100%;
+    height: 70px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-section .menu{
+    width: 800px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: left;
+}
+
+header nav .nav-section .buscador{
+    width: 800px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: right;
+}
+
+
+main .contenido{
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right:70px ;
+      background-color: rgb(251, 255, 255);
+      text-align: center;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;   
+}
+
+
+/*Icono de menu (barras)*/
+nav .nav-right-section .menu{
+    background-image: url(https://assets.stickpng.com/images/588a6507d06f6719692a2d15.png);
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+}
+/*Imagen principal del fondo*/
+.fondo{
+    width: 1000px;
+    height: 400px;
+}
+
+/*Modificar texto completo*/
+
+/*Ajustar todas la imagenes a un mismo tamaño*/
+.recomendacion{
+    width: 200px;
+    height: 300px;
+}
+
+.adopta{
+    align="center"
+}

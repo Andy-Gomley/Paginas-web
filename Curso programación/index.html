@@ -1,0 +1,217 @@
+<!--DOCTYPE le dice al navegador que este archivo es tipo html-->
+<!DOCTYPE html>
+
+<html lang="es">
+    <!--Información para el navegador y extras!-->
+    <head>
+    <!--Titulos!-->
+    <title> El mundo de los libros. </title>
+     <!--Para conectar el codigo html con el css!-->
+    <link rel="stylesheet" href="style.css">
+     <!--Para cambiar estilo de letra!-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    </head>
+
+   
+    <body>
+
+      <header>
+        <nav>
+          <ul class="nav-section">
+             
+            <li align="left" class="menu">Menú<a href=""></a>
+             </li>
+    
+             <li align="right" class="buscador"><section class="main-input">
+              <div class="main-input-container" href="">
+                 <span class="search-icon"></span>
+                 <input type="text">
+              </div><a href=""> </a>
+             </li>
+          </ul>
+        </nav>
+      </header>
+
+     <div align="center">
+      <img class="fondo" src="Imagenes\fondo-completo.png" alt="">
+     </div> 
+ 
+      <div clas="texto">
+        <h4> En este lugar encontraras reseñas y recomendacionaes de libros. También podrás explorar nuevo generos y descubrir nuevos autores. Reseña nueva cada semana.</h4>
+        <h4> Revisa nuestro apartado de ventas y adquiere un nuevo libro por un increible precio aquí.</h4> 
+      </div>
+
+<main>
+  <section class="contenido">
+     <div>
+     <div align="center"> 
+       <h2>Recomendaciones de la semana.</h2> 
+     </div> 
+     <a href="https://www.gandhi.com.mx/el-amante-polaco-l1-2"><img class="recomendacion" src="\Imagenes\el amante polaco.jpg"></a>
+   
+     <a href="https://www.gandhi.com.mx/el-gremio-de-los-magos-cronicas-del-mago-negro-1-1"><img class="recomendacion" src="\Imagenes\el gremio de los magos.jpg"> </a>
+   
+     <a href="https://www.gandhi.com.mx/aristoteles-y-dante-descubren-los-secretos-del-universo-1"><img class="recomendacion" src="\Imagenes\aristoteles y dante.jpg"></a>
+   
+     <a href="https://www.gandhi.com.mx/el-instituto-3"><img class="recomendacion" src="\Imagenes\el instituto.jpg"></a>
+   
+     <a href="https://www.gandhi.com.mx/el-so-ador-desconocido"> <img class="recomendacion" src="\Imagenes\sonador desconocido.jpg" alt=""></a>
+   </div>
+
+  </section>
+   
+
+
+
+  <!--Listas-->
+  <div>
+    <h3 align="center">Encuentra tu libreria mas cercana.</h3>
+    <p>Aquí podras encontar librerias que se encuentran asociadas a nuestro programa <a href="#adopta un libro">adopta un libro</a>. También podras obtener un 15% de descuento en tu primera compra presentando tu credencial de estudiante o INAPAM.</p>
+ 
+    <ul>
+      <li>El desatre café + libros.</li> 
+      <li>La Murciélaga.</li> 
+      <li>La increíble librería.</li> 
+      <li>La moraleja.</li>
+      <li>Casa bosques.</li>
+      <li>Libreria El Laberinto.</li>
+     </ul>
+  </div>
+  
+  <div>
+    <h3 align="center" id="adopta un libro"> Adopta un libro </h3>
+    <p> Vienvenido al programa adopta un libro.
+      Este progama fue creado en el año 2015 bajo nuestra fundadora Andrea Gómez. 
+      Este programa surgio de la necesidad de los lectores que constantemente terminaban sus libros en tan poco tiempo y querian adquirir nuevos libros para leer, lo cual es un poco complicado debido a los altos precios estipulados por las librerias de renombre. 
+    </p>
+     <div align="center">
+      <img clas="adopta" src="Imagenes\adopta.png" alt="">
+     </div>
+    
+  </div>
+
+ <!--Formularios con radio --> 
+ <div>
+   <h3 align="center">¡Hola querido lector!</h3>
+   <p>Con el motivo de conocer más a nuestros lectores y mejorar la experiencia en nuestra página, te agradeceríamos que nos ayudaras a contestar la siguiente encuesta.</p>
+
+      <div>
+        <p>¿Cuál es tu genero literario favorito?</p>
+        <!--Opción narrativo --> 
+           <label for="Narrativo">
+            <input id="Narrativo" type="radio"
+             value="Narrativo" name="tipo"> Narrativo.
+           </label>
+        <!--Opción Lírico --> 
+           <label for="Lírico">
+             <input id="Lírico" type="radio"
+             value="Lírico" name="tipo"> Lírico.
+           </label>
+
+        <!--Opción Dramático --> 
+          <label for="Dramático">
+            <input id="Dramático" type="radio"
+             value="Dramático" name="tipo"> Dramático.
+          </label>
+
+        <!--Opción Didáctico --> 
+          <label for="Didáctico">
+            <input id="Didáctico" type="radio"
+             value="Didáctico" name="tipo"> Didáctico.
+          </label>
+      </div>
+ 
+      <div>
+       <p>¿Qué generos sueles leer más?</p>
+         <!--Opción terror--> 
+            <label for="Terror">
+              <input id="Terror" type="radio"
+               value="Terror" name="tematica"> Terror.
+            </label>
+
+          <!--Opción amor--> 
+             <label for="Romántico">
+               <input id="Romántico" type="radio"
+                value="Romántico" name="tematica"> Romántico.
+             </label>
+
+            <!--Opción terror--> 
+             <label for="Misterio">
+               <input id="Misterio" type="radio"
+                value="Misterio" name="tematica"> Misterio.
+             </label>
+              
+            <!--Opción terror--> 
+              <label for="Ficción">
+                <input id="Ficción" type="radio"
+                 value="Ficción" name="tematica"> Ficción.
+              </label>
+      </div>
+     
+     
+      <!--Encuesta--> 
+      <div>
+        <p>¿En dondé te gusta leer?</p>
+          <!--Opción casa--> 
+             <label for="En casa">
+               <input id="En casa" type="radio"
+                value="En casa" name="lugar"> En casa.
+             </label>
+ 
+           <!--Opción parque--> 
+              <label for="Parque">
+                <input id="Parque" type="radio"
+                 value="Parque" name="lugar"> Parque.
+              </label>
+ 
+             <!--Opción Biblioteca--> 
+              <label for="Biblioteca">
+                <input id="Biblioteca" type="radio"
+                 value="Biblioteca" name="lugar"> Biblioteca.
+              </label>
+               
+             <!--Opción cafeteria--> 
+               <label for="Cafeteria">
+                 <input id="Cafeteria" type="radio"
+                  value="Cafeteria" name="lugar"> Cafeteria.
+               </label>
+       </div>
+
+       <div>
+         <p> ¿En qué formato prefieres los libros?</p>
+             <!--Opción físico--> 
+              <label for="físico">
+                <input id="físico" type="radio"
+                 value="físico" name="formato"> Formato físico.
+              </label>
+
+             <!--Opción audio--> 
+             <label for="audio">
+              <input id="audio" type="radio"
+               value="audio" name="formato"> Audio libros.
+            </label> 
+
+            <!--Opción digital--> 
+            <label for="digital">
+              <input id="digital" type="radio"
+               value="digital" name="formato"> Formato digital.
+            </label> 
+       </div>
+</div>
+ 
+
+
+</main>
+
+  <main>
+     <footer>
+       <p>Pagina creada por Andrea Gómez en <a href="https://tecnolochicas.mx/">Tecnolochicas Pro</a>
+       </p>
+     </footer>
+  </main>
+
+</body>
+
+</html>
